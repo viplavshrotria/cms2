@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/viplavshrotria/cms2.git'
+                git branch: 'master', url: 'http://gitlab.tenant604927.ibdp.calibo.com/vshrotria/cms2.git'
             }
         }
 
